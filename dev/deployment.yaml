@@ -15,7 +15,7 @@ spec:
         app: ingest
     spec:
       imagePullSecrets:
-      - name: my-registry-key
+      - name: docker-credentials
       containers:
       - name: my-app
         image: amishra11j/amishra-repo:1.3
