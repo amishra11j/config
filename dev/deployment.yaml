@@ -19,7 +19,7 @@ spec:
       - name: docker-credentials
       containers:
       - name: my-app
-        image: amishra11j/amishra-repo:latest
+        image: amishra11j/amishra-repo:1.4
         imagePullPolicy: Always
         ports:
           - containerPort: 3000
